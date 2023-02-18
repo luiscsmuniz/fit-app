@@ -12,14 +12,14 @@ html, body {
 }
 
 .primary-container {
-  background-color: #9501AD;
+  background-color: var(--primary-color);
   opacity: 50%;
   color: #fff;
   height: 390px;
 }
 
 .nav-primary {
-  background-color: #9501AD;
+  background-color: var(--primary-color);
   opacity: 50%;
   color: #fff;
   position: absolute;
@@ -38,7 +38,7 @@ html, body {
 }
 
 .btn-menu {
-  background-color: #9501AD;
+  background-color: var(--primary-color);
   opacity: 50%;
   height: 50px;
   width: 50px;
@@ -68,6 +68,17 @@ html, body {
   margin-right:auto;
 }
 
+.menu-item {
+  max-width: 66%;
+  position: absolute;
+  left:0;
+  right:0;
+  top: 300px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 5px;
+}
+
 .avatar-div span {
   width: 160px;
   font-size: 10pt;
@@ -78,6 +89,24 @@ html, body {
   margin-right: auto;
 }
 
+.menu-card-item {
+  height: 96px;
+  width: 49.5%;
+  display: inline-block;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.menu-item-text {
+  margin-top: 30px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 22px;
+}
+
 @media screen and (max-width: 768px) {
   .primary-container {
     height: 300px;
@@ -85,5 +114,19 @@ html, body {
 
   .avatar-div {
     top: 80px;
+  }
+
+  .menu-item {
+    top: 260px;
+    max-width: 84%;
+  }
+
+  .menu-card-item {
+    height: 96px;
+    width: 49.2%;
+  }
+
+  .menu-item-text {
+    font-size: 16px;
   }
 }
