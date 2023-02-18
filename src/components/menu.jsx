@@ -21,10 +21,16 @@ export const MenuButton = () => {
         <div className="nav-item-menu text-center">
           <FontAwesomeIcon className="mt-3" icon={faHome} size="2x" />
         </div>
-        <div className="nav-item-menu text-center">
+        <div
+          className="nav-item-menu text-center"
+          onClick={() => window.open('https://www.instagram.com/letiiciaa_soouza/', '_blank')}
+        >
           <FontAwesomeIcon className="mt-3" icon={faInstagram} size="2x" />
         </div>
-        <div className="nav-item-menu text-center">
+        <div
+          className="nav-item-menu text-center"
+          onClick={() => window.open('https://api.whatsapp.com/send?phone=5513996909223', '_blank')}
+        >
           <FontAwesomeIcon className="mt-3" icon={faWhatsapp} size="2x" />
         </div>
         <div
