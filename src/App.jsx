@@ -1,9 +1,8 @@
+import { MainScreen } from './screens/mainscreen'
 import './App.css'
 
-export default function App() {
-  return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
-  )
+const App = () => {
+  return <MainScreen />
 }
+
+export default App
